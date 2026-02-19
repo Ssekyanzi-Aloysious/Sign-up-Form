@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-up</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <div class="dark">
+                    <img src="./img/odin-lined.png" alt="Odin">
+                    ODIN
+                </div>
+                <div class="photo">
+                    <p class="credit">
+                        Photo by
+                        <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a>
+                        on
+                        <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    </p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="txt">
+                    <p>
+                        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                        <br>
+                        Sign up now to get started.
+                    </p>
+                    <p>You know you want to.</p>
+                </div>
+                <div class="form-cont">
+                    <h2>
+                        Let's do this!
+                    </h2>
+                    <div class="formFlex">
+                        <div class="formleft">
+                            <div class="firstname">
+                                <label for="firstname">FIRST NAME</label>
+                                <input type="text" id="firstname" name="firstname" placeholder="First Name">
+                            </div>
+
+                            <div class="email">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email" placeholder="example@email.com">
+                            </div>
+
+                            <div class="password">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" name="password" minlength="8">
+                            </div>
+
+                        </div>
+                        <div class="formright">
+                            <div class="lastname">
+                                <label for="lastname">LAST NAME</label>
+                                <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+                            </div>
+                            <div class="phonenumber">
+                                <label for="phonenumber">PHONE NUMBER</label>
+                                <input type="tel" id="phonenumber" name="phonenumber" placeholder="+256 123 456 789">
+                            </div>
+                            <div class="password">
+                                <label for="confirmpassword">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirmpassword" name="confirmpassword" minlength="8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button> Create Account</button>
+                <p class="already">Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
